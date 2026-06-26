@@ -311,6 +311,26 @@ body {
 [data-theme="dark"] .result, [data-theme="dark"] .preview__body { background: rgba(0,0,0,0.25); }
 [data-theme="dark"] select option { background: #1a1d28; color: var(--ink); }
 
+/* Тёмная тема: затемняем «стеклянные» поверхности компонентов */
+[data-theme="dark"] .card { background: rgba(255,255,255,0.05); }
+[data-theme="dark"] .card:hover { background: rgba(255,255,255,0.1); }
+[data-theme="dark"] .card.is-selected { background: rgba(255,255,255,0.11); }
+[data-theme="dark"] .toggle { background: rgba(255,255,255,0.04); }
+[data-theme="dark"] .toggle:hover { background: rgba(255,255,255,0.09); }
+[data-theme="dark"] .toggle.is-on { background: rgba(255,255,255,0.11); }
+[data-theme="dark"] .segment button { background: rgba(255,255,255,0.05); }
+[data-theme="dark"] .segment button:hover { background: rgba(255,255,255,0.1); }
+[data-theme="dark"] .btn:not(.btn--primary) { background: rgba(255,255,255,0.06); }
+[data-theme="dark"] .btn:not(.btn--primary):hover { background: rgba(255,255,255,0.12); }
+[data-theme="dark"] .btn--ghost { background: transparent; }
+[data-theme="dark"] .icon-btn { background: rgba(255,255,255,0.06); }
+[data-theme="dark"] .icon-btn:hover { background: rgba(255,255,255,0.14); }
+[data-theme="dark"] .step i { background: rgba(255,255,255,0.08); }
+[data-theme="dark"] .history-item { background: rgba(255,255,255,0.05); }
+[data-theme="dark"] .history-item:hover { background: rgba(255,255,255,0.1); }
+[data-theme="dark"] .actions { background: rgba(255,255,255,0.04); }
+[data-theme="dark"] .modal__tabs { background: rgba(255,255,255,0.06); }
+
 /* ===== Топбар в шапке ===== */
 .topbar { position: absolute; top: 0; right: 0; display: inline-flex; gap: 8px; }
 .history-btn.icon-only { padding: 9px; }
