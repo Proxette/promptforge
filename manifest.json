@@ -1,0 +1,13 @@
+{
+  "name": "PromptForge — конструктор промтов",
+  "short_name": "PromptForge",
+  "description": "Пошаговый конструктор качественных промтов для ИИ + библиотека готовых промтов.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#eef1f7",
+  "theme_color": "#eef1f7",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
